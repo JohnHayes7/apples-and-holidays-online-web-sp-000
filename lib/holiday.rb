@@ -103,7 +103,8 @@ def all_holidays_with_bbq(holiday_hash)
         answer_array << day
     end
   end
-    
+
+  answer_array    
 
 end
 
