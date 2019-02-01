@@ -86,6 +86,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
       cap_array = []
       
+      split_holiday = 
       holiday.keys.collect do |i|
       split_holiday = i.to_s.split("_")
       split_holiday
