@@ -93,6 +93,7 @@ def all_supplies_in_holidays(holiday_hash)
          uniform_holiday_array << i.to_s.split("_")
          
          uniform_holiday_array.each do |j|
+         end
            
          
        end
