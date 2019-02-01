@@ -89,7 +89,7 @@ def all_supplies_in_holidays(holiday_hash)
       
         uniform_holiday_array = []
        holiday_array.each do |i|
-         uniform_holiday_array << i.to_s.
+         uniform_holiday_array << i.to_s.split("_")
          
        end
       # puts "  #{day[0].to_s.capitalize}: #{day[1].join(", ")}"
