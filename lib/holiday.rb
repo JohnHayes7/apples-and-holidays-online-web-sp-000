@@ -88,8 +88,12 @@ def all_supplies_in_holidays(holiday_hash)
       supply_array = holiday.values
       
         uniform_holiday_array = []
+        cap_holiday_array = []
        holiday_array.each do |i|
          uniform_holiday_array << i.to_s.split("_")
+         
+         uniform_holiday_array.each do |j|
+           
          
        end
       # puts "  #{day[0].to_s.capitalize}: #{day[1].join(", ")}"
