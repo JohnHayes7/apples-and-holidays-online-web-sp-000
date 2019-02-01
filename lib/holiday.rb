@@ -87,7 +87,7 @@ def all_supplies_in_holidays(holiday_hash)
       split_array = []
       holiday.keys.collect do |i|
       split_array << i.to_s.split("_")
-      end
+      end 
       
       
       # puts "  #{day[0].to_s.capitalize}: #{day[1].join(", ")}"
