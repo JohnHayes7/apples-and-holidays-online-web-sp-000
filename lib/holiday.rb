@@ -88,6 +88,7 @@ def all_supplies_in_holidays(holiday_hash)
       
       holiday.keys.collect do |i|
       split_holiday = i.to_s.split("_")
+      split_holiday
       end 
         split_array.collect do |j|
           cap_array << j.join(" ").capitalize
