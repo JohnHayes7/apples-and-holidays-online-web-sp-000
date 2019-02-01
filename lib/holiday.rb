@@ -87,11 +87,8 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_array = holiday.keys
       supply_array = holiday.values
   
-      i = 0
-      until i > holiday_array.length
-      holiday_string = holiday_array[i].to_s.split("_")
-      i += 1
-      end
+     holiday_array.each do |i|
+     end
       # puts "  #{day[0].to_s.capitalize}: #{day[1].join(", ")}"
       binding.pry
   end
