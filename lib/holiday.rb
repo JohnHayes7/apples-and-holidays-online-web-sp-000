@@ -92,9 +92,9 @@ def all_supplies_in_holidays(holiday_hash)
        holiday_array.each do |i|
          uniform_holiday_array << i.to_s.split("_")
          
-         uniform_holiday_array.each do |j|
-         j.join(" ").capitalize
-         end
+           uniform_holiday_array.each do |j|
+           j.join(" ").capitalize
+           end
            
          
        end
